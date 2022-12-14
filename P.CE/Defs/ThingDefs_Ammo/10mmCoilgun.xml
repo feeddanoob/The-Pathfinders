@@ -13,7 +13,7 @@
     <label>10mm Coilgun</label>
     <ammoTypes>
       <Ammo_10mmCoilgun_Sabot>Bullet_10mmCoilgun_Sabot</Ammo_10mmCoilgun_Sabot>
-	  <Ammo_10mmCoilgun_Ion>Bullet_10mmCoilgun_Ion</Ammo_10mmCoilgun_Ion>
+	  <!--<Ammo_10mmCoilgun_Ion>Bullet_10mmCoilgun_Ion</Ammo_10mmCoilgun_Ion>-->
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
   
@@ -45,7 +45,7 @@
     <ammoClass>CoilgunSabot</ammoClass>
   </ThingDef>
 	
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+	<!-- <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
 		<defName>Ammo_10mmCoilgun_Ion</defName>
 		<label>10mm Coilgun cartridge (Ion)</label>
 		<description>Fin-stabilized tungsten carbide penetrator with discarding sabot, designed for Heavy Coilguns. These produce an EMI distortions on impact.</description>
@@ -57,9 +57,9 @@
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
 			<li>CE_AutoEnableCrafting_FabricationBench</li>
-			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li> -->
 			<!-- Railgun ammo isn't handloaded because it contains no propellant, and the sabots must be precision-machined anyway -->
-		</tradeTags>
+		<!--</tradeTags>
 		<thingCategories>
 			<li>Ammo10mmCoilgun</li>
 		</thingCategories>
@@ -69,7 +69,7 @@
 			<graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
 		</graphicData>
 		<ammoClass>CoilgunIon</ammoClass>
-	</ThingDef>
+	</ThingDef> -->
   <!-- ================== Projectiles ================== -->
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
@@ -125,7 +125,7 @@
     </products>
   </RecipeDef>
 
-	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+	<!-- <RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_10mmCoilgun_Ion</defName>
 		<label>make 10mm Coilgun cartridge (Ion) x200</label>
 		<description>Craft 200 10mm Railgun (Ion) cartridges.</description>
@@ -176,6 +176,6 @@
 			<Ammo_10mmCoilgun_Ion>200</Ammo_10mmCoilgun_Ion>
 		</products>
 		<workAmount>14000</workAmount>
-	</RecipeDef>
+	</RecipeDef> -->
 	
 </Defs>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingCategoryDef>
-    <defName>Ammo105mmCoilgun</defName>
+    <defName>Ammo105mmRecoillessCoilgun</defName>
     <label>105mm Coilgun</label>
     <parent>AmmoAdvanced</parent>
     <iconPath>UI/Icons/ThingCategories/CaliberPlasmaLarge</iconPath>
@@ -9,7 +9,7 @@
   <!-- ==================== AmmoSet ========================== -->
 
   <CombatExtended.AmmoSetDef>
-    <defName>AmmoSet_105mmCoilgun</defName>
+    <defName>AmmoSet_105mmRecoillessCoilgun</defName>
     <label>105mm Coilgun</label>
     <ammoTypes>
       <Ammo_105mmCoilgun_Sabot>Bullet_105mmCoilgun_Sabot</Ammo_105mmCoilgun_Sabot>
@@ -34,7 +34,7 @@
       <!-- Railgun ammo isn't handloaded because it contains no propellant, and the sabots must be precision-machined anyway -->
     </tradeTags>
     <thingCategories>
-      <li>Ammo105mmCoilgun</li>
+      <li>Ammo105mmRecoillessCoilgun</li>
     </thingCategories>
     <stackLimit>20</stackLimit>
     <graphicData>

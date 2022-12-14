@@ -92,12 +92,12 @@
           </value>
         </li>
         
-        <li Class="PatchOperationAdd">
+        <!-- <li Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[defName="Apparel_PathfinderStandardHelmet"]/apparel/layers</xpath>
           <value>
             <li>MiddleHead</li>
           </value>
-        </li>
+        </li> -->
         <!-- Pathfinder Power Armour -->
 
         <li Class="PatchOperationAdd">
@@ -234,7 +234,7 @@
           <value>
             <li>OnHead</li>
             <li>StrappedHead</li>
-            <li>MiddleHead</li>
+            <!-- <li>MiddleHead</li> -->
           </value>
         </li>
         
